@@ -1,0 +1,34 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    password: Mac#1212*FGN
+    url: jdbc:mysql://localhost:3306/jrtp26
+    username: root
+    spring:
+      jpa:
+        open-in-view: false
+  jpa:
+    
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: twex usob pghj iayy
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: nyongfomum78@gmail.com
+  app:
+    messages:
+      dupEmail: Duplicate Email
+      regSucc: User Registered
+      regFail: Registration Failed
+      invalidCredentials: Invalid Credentials
+      pwdMatchErr: New Pwd and Old Pwd should be same
+      pwdUpdateErr: Password Update Failed
+      oldPwdErr: Given Old Pwd is wrong
